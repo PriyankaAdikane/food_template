@@ -1,0 +1,292 @@
+body{
+    margin:auto
+}
+#header{
+    height:60px;
+    width:100%;
+    background-color:#a15379
+}
+
+#icon{
+    font-size:30px;
+    color:white;
+    font-weight:bold;
+    margin-left: 1%;
+    margin-top: 10px;
+    position:absolute;
+}
+
+#social{
+    float: right;
+    margin-right: 2%;
+}
+
+a{
+    text-decoration:none
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}
+
+#main{
+    width:80%;
+    margin-left:10%;
+    margin-top:3%;
+    display: inline-block
+}
+
+#filter_1{
+    height:600px;
+    width:25%;
+    border:3px solid #9e5883;
+    float: left;
+}
+
+#content-main{
+    width:68%;
+    float: left;
+    margin-left:5%;
+    margin-top: -2%;
+}
+
+.content{
+    height:300px;
+    width:100%;
+    border:2px solid olive;
+    margin-top: 5%;
+}
+
+#footer{
+    margin-top:2%;
+    height:140px;
+    /*width:150%;*/
+    background-color:#a15379;
+    text-align: center;
+    font-size:20px;
+    padding:20px
+}
+.footer_left
+{  
+   color: aliceblue;
+   font-size:15px;
+   text-align: left;
+   margin-left: 10%;
+   margin-top: 2%;
+}
+.footer_right
+{  color: aliceblue;
+   font-size:15px;
+   text-align: left;
+   margin-left: 80%;
+   margin-top: -6%;
+}
+#footer_heading{
+    height:55px;
+    width:174px;
+    background-color: rgb(255 255 255 / 53%);
+    border-radius: 50%;
+    margin-left: 43%;
+    /* margin-top:11%; */
+    position:absolute;
+    font-size:36px;
+    text-align:center;
+}
+#footer_heading >span{
+    margin-left: -44%;
+    margin-top: 4%;
+    position:absolute;
+}
+#footer_sub_heading{
+    font-size:30px;
+    text-align:center;
+    margin-left: 39%;
+    color:rgb(252, 247, 247);
+    margin-top:4%;
+    position:absolute;
+} 
+/* .footer_title
+{
+    height:400px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size:100% 500px;
+} */
+#title{
+    height:400px;
+    width:100%;
+    background-image: url('images/meetneat.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size:100% 500px;
+}
+
+#heading{
+    height:119px;
+    width:246px;
+    background-color: rgb(255 255 255 / 53%);
+    border-radius: 50%;
+    margin-left: 51%;
+    margin-top:11%;
+    position:absolute;
+    font-size:51px;
+    text-align:center;
+}
+#heading >span{
+    margin-left: -46%;
+    margin-top: 13%;
+    position:absolute;
+}
+#sub_heading{
+    font-size:30px;
+    text-align:center;
+    margin-left: 49%;
+    color:white;
+    margin-top:20%;
+    position:absolute;
+}
+
+.filter{
+    color:#243a4d;
+    font-size: 25px;
+    font-weight: bold;
+    display:block;
+    margin-left: 40%;
+    margin-top: 10px
+    
+}
+.filter_1 >span
+{
+    background-color: #a15379;
+    /* text-align: center; */
+}
+.cuisine_filter
+{
+    color:#f8f9fa;
+    font-size: 20px;
+    font-weight: bold;
+    display:block;
+    /* margin-left: 31%; */
+    margin-top: 10px;
+    background-color: #9e5883;
+    line-height: 2; 
+    text-align: center;
+    
+}
+.cost_filter
+{
+    color:#f8f9fa;
+    font-size: 20px;
+    font-weight: bold;
+    display:block;
+    /* margin-left: 31%; */
+    margin-top: 10px;
+    background-color: #9e5883;
+    line-height: 2; 
+    text-align: center;
+}
+.cuisine_content
+{
+    margin-left: 11%;
+    line-height: 2; 
+}
+.cost_content
+{
+    margin-left: 11%;
+    line-height: 2; 
+}
+.cuisine_content >input{
+    margin-right: 5%; 
+}
+.cost_content >input{
+    margin-right: 5%; 
+}
+.tileContainer{
+    height:200px;
+    width:90%;
+    margin-top:3%;
+    display: inline-block;
+    margin-left:2%;
+}
+.tileComponent1{
+    width:45%;
+    float: left;
+    height: 180px;
+}
+.tileComponent1 >img {
+    height: 200px;
+    width:100%;
+    border-radius: 25px;
+}
+.componentHeading
+{
+    height: 35px;
+    color: rgb(202, 92, 129);
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 53%;
+    width: 57%;
+}
+.componentSubHeading
+{
+    height: 180px;
+    color: rgb(49, 20, 30);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 53%;
+}
+.componentSubHeading >span
+{
+    font-size: 15px;   
+}
+.componentSubHeading >h6{
+/* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+margin-top: 3%;
+}
+.rs_per_plate{
+    height: 180px;
+    color: rgb(236, 154, 183);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20%;
+    height: 180px;
+    width: 93%
+
+}
+.button {
+     /* Green */
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    /* margin: 4px 2px;
+    cursor: pointer; */
+    margin-left: 78%;
+    height: 36px;
+    margin-top: -8%;
+  }
+  .button2 {
+    border-radius: 4px;
+    background-color: #4CAF50;}
+  .button1 {
+      margin-left: 35%;
+      border-radius: 5px;
+      background-color: #cf510e;
+      width: 10%;
+    }
+    .button3 {
+        margin-left: 55%;
+        border-radius: 5px;
+        background-color: #1da9a2;
+        width: 14%;
+      }
+    hr
+    {  
+      width:120%;
+    }
+    
+
+
